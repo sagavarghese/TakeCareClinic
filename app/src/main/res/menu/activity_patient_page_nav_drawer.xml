@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_PatientForm"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="My details" />
+        <item
+            android:id="@+id/nav_Appointment"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Appointment" />
+        <item
+            android:id="@+id/nav_CancelAppointment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Cancel Appointment" />
+
+        <item
+            android:id="@+id/nav_AskYourDoctor"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Ask Your Doctor" />
+        <item
+            android:id="@+id/nav_ViewAnswer"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="View Answer" />
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Logout" />
+    </group>
+</menu>
